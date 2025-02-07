@@ -19,4 +19,53 @@ html{
   margin-right: 6rem;
   
 }
-
+@media (max-width: 460px) {
+  .active{
+     
+    display: none;
+  }
+  .paragraph{
+    width: 130%;
+    margin: 2rem;
+    
+  }
+  .resume{
+    margin-right:  6rem;
+  }
+  .skills-dev{
+    margin-right: 4rem;
+    letter-spacing: 1px;
+  }
+  .image-1{
+    margin-right: 2rem;
+  }
+  .tech-stack{
+    display: none;
+  }
+  .project-div{
+    width: 100%;
+    margin-right: 6rem;
+  }
+  .paragraph-2{
+    width: 100%;
+  }
+  .button-div{
+    width: 60%;
+    display: flex;
+   align-items: center;
+  }
+  .button{
+   padding: 2px 4px 8px 0;
+   margin-top: 2rem;
+   font-size: medium;
+   
+  }
+  .button-1{
+    font-size: 1.6rem;
+  }
+  .imagify{
+    width: 100%;
+   
+    margin-left: 4rem;
+  }
+}

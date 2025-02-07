@@ -8,11 +8,11 @@ const Technologies = () => {
         <motion.div initial={{ opacity: 0.4, y: 100 }} transition={{ duration: 1 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className='pb-24 max-w-[1000px] ml-10'>
             <h2 className='text-4xl my-20 '>Tech Stack <hr className='my-2 bg-gradient-to-r from-stone-300 to-stone-600  ' /></h2>
             <h3 className='text-3xl my-10 '>Frontend</h3>
-            <div className='items-start flex flex-wrap  gap-4'>
+            <div className='items-start flex flex-wrap grid sm:grid-cols-3  gap-4'>
 
                 <motion.div animate={{ y: [0, -20, 0] }} // Moves up and down
-                    transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }} className=' p-4 px-7 py-3 items-center border border-gray-300 flex gap-2 items-center rounded-sm'>
-                    <SiNextdotjs className='text-2xl text-white bg-zinc-900' />Next.Js
+                    transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }} className=' p-4 px-6 py-3 items-center border border-gray-300 flex gap-2 items-center rounded-sm'>
+                    <SiNextdotjs className='text-2xl text-white bg-zinc-900 ' />Next.Js
                 </motion.div>
                 <motion.div animate={{ y: [0, -20, 0] }} // Moves up and down
                     transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }} className='p-4 px-7 py-3 items-center border border-gray-300 flex gap-2 items-center rounded-sm'>
@@ -37,7 +37,7 @@ const Technologies = () => {
 
             </div>
             <h3 className='text-3xl my-10'>Backend</h3>
-            <div className='items-start flex flex-wrap  gap-4'>
+            <div className='items-start flex flex-wrap grid sm:grid-cols-3  gap-4'>
 
                 <motion.div animate={{ y: [0, -20, 0] }} // Moves up and down
                     transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}  className='p-4 px-7 py-3 items-center border border-gray-300 flex gap-2 items-center rounded-sm'>
@@ -64,10 +64,10 @@ const Technologies = () => {
 
             </div>
             <h3 className='text-3xl my-10'>Productivity</h3>
-            <div className='items-start flex flex-wrap  gap-4'>
+            <div className='items-start flex flex-wrap grid sm:grid-cols-2   gap-4'>
 
                 <motion.div animate={{ y: [0, -20, 0] }} // Moves up and down
-                    transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}   className='p-4 px-7 py-3 items-center border border-gray-300 flex gap-2 items-center rounded-sm'>
+                    transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}   className='p-2 px-7 py-3 items-center border border-gray-300 flex gap-2 items-center rounded-sm'>
                     <SiGit className='text-2xl text-orange-400' />Git
                 </motion.div>
                 <motion.div animate={{ y: [0, -20, 0] }} // Moves up and down
@@ -90,7 +90,7 @@ const Technologies = () => {
 
 
             </div>
-            <div className='flex flex-wrap items-start gap-4 mt-8'>
+            <div className='flex flex-wrap items-start gap-4 mt-8 grid sm:grid-cols-3'>
                 <motion.div animate={{ y: [0, -20, 0] }} // Moves up and down
                     transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}    className='p-4 px-7 py-3 items-center border border-gray-300 flex gap-2 items-center rounded-sm'>
                     <SiRender className='text-2xl text- ' />Render
