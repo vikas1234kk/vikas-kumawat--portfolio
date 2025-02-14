@@ -45,7 +45,7 @@ const Hero = () => {
                             className='my-2 max-w-lg py-6 text-xl loading-relaxed tracking-tighter paragraph'>👋 Hi there, I'm Vikas! I'm a results-driven MERN stack developer with a passion for building cutting-edge web applications that make an impact.
                             I've honed my skills in MongoDB, Express.js, <br /> React.js, and Node.js to deliver high-quality solutions tailored to meet specific user needs. <br /> With a strong foundation in full-stack development, I thrive in environments that challenge me to continuously learn and innovate.</motion.p>
 
-                        <motion.a initial={{ opacity: 0 }} animate={{ opacity: 1 }} whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} transition={{ default: { duration: 0.5 }, opacity: { delay: 0.8, duration: 1 } }} className='px-7 py-2 bg-gray-300 text-zinc-900  text-xl rounded-lg resume' href="/vikas1 resume.pdf" download>Resume <span className=''>&#8595;</span></motion.a>
+                        <motion.a initial={{ opacity: 0 }} animate={{ opacity: 1 }} whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} transition={{ default: { duration: 0.5 }, opacity: { delay: 0.8, duration: 1 } }} className='px-7 py-2 bg-gray-300 text-zinc-900  text-xl rounded-lg resume' href="/vikas kumawat(1).pdf" download>Resume <span className=''>&#8595;</span></motion.a>
 
                     </div>
 
