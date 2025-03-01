@@ -68,7 +68,7 @@ const Projects = () => {
                         <a href="https://github.com/vikas1234kk/FOREVER-FULL-STACK-PROJECTS/tree/main/backend"><button className='md:px-4 md:py-2 inline-flex w-auto border border-gray-400 px-5 py-2 items-center flex gap-3 hover:px-10 transition ease-in-out duration-0.6 cursor-pointer rounded-xl'><SiGithub className='text-2xl sm:text-xl' />Backend</button></a>
 
                     </div>
-                    <a href="https://clothes-e-commerce-77vf-git-main-vikas-kumawats-projects.vercel.app/"><button className='  flex items-center justify-center mt-6 w-full py-3 text-center border border-gray-400 rounded-xl  '>FOREVER / FULL-STACK E-COMMERCE<span className='text-3xl'>&#8599;</span></button></a>
+                    <a href="https://clothes-e-commerce-77vf.vercel.app/"><button className='  flex items-center justify-center mt-6 w-full py-3 text-center border border-gray-400 rounded-xl  '>FOREVER / FULL-STACK E-COMMERCE<span className='text-3xl'>&#8599;</span></button></a>
 
                 </div>
                 <div className='md:w-1/2 w-full mt-6 md:mt-0 flex justify-center'>
